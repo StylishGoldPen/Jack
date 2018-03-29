@@ -10,11 +10,10 @@ import { AboutComponent } from './About/About.component';
 import { ContactComponent } from './Contact/Contact.component';
 
 const appRoutes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent},
   { path: 'about', component: AboutComponent},
   { path: 'contact', component: ContactComponent},
-  { path: '', component: HomeComponent}
 ];
 
 @NgModule({
