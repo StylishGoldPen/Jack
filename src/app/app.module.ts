@@ -14,6 +14,7 @@ const appRoutes: Routes = [
   { path: 'projects', component: ProjectsComponent},
   { path: 'about', component: AboutComponent},
   { path: 'contact', component: ContactComponent},
+  { path: '', component: HomeComponent}
 ];
 
 @NgModule({
@@ -28,7 +29,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes,
       {enableTracing: true}
-    )
+    ),
     NgbModule.forRoot(),
     BrowserModule
   ],
